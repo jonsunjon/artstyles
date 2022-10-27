@@ -61,7 +61,6 @@ html {
     display: flex;
     min-width: 400px;
     flex-direction: column;
-    height: 100%;
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
 }
@@ -72,6 +71,7 @@ html {
     background-color: #F6F2F2;
     min-width: 350px;
     min-height: 688px;
+    max-height: 100%;
     margin: 0 auto;
 }
 
@@ -179,6 +179,7 @@ button:focus {
     font-weight: 800;
     color: #000000;
     margin: 0px;
+    margin-top: -16px;
     margin-bottom: 37px;
 }
 
@@ -189,6 +190,7 @@ button:focus {
     line-height: 28px;
     font-weight: 400;
     color: #000000;
+    margin-bottom: 64px;
 }
 
 .button_contact {
@@ -224,6 +226,7 @@ button:focus {
 
 .video_1 {
     width: 554px;
+    min-height: 359px;
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -233,7 +236,6 @@ button:focus {
 
 @media (max-width: 1200px) {
     .right_sect {
-        margin-left: 2vw;
         width: 100%;
     }
     .video_1 {
