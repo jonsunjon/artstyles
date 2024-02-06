@@ -6,77 +6,230 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Agency</title>
+    <title>ArtStyles</title>
+    <script defer src="js/popup.js"></script>
+    <script defer src="js/photo_change.js"></script>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body class="page">
-    <div class="container_intro">
-        <header class="header">   
+    <div class="container container_intro">
+        <header class="header header_intro">   
             <nav class="navigation"> 
-                <ul class="menu">
-                    <li><a class="menu_link" href="index.html">home</a></li>
-                    <li><a class="menu_link" href="pages/portfolio.html">portfolio</a></li>
-                    <li><a class="menu_link" href="pages/about.html">about&nbspus</a></li>
-                    <li><a class="menu_link" href="pages/contacts.html">contact</a></li>
+                <button class="popup__button"></button>
+                <ul class="navigation__menu">
+                    <li><a class="navigation__link" href="index.html">Основное</a></li>
+                    <li><a class="navigation__link" href="#portfolio">Работы</a></li>
+                    <li><a class="navigation__link" href="#about">Деятели</a></li>
+                    <li><a class="navigation__link" href="#contacts">Обратная связь</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="main">
-            <section class="left_sect">
-                <h1 class="h1" >our strong  organization</h1>
-                <p class="text1">
-                        Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.
+        <div class="intro intro_main">
+            <section class="main__sect main__sect_left">
+                <h1 class="h1 h1_intro" >ИСТОРИЯ РЕНЕССАНСА</span></h1>
+                <p class="p_intro">
+                    Возрожде́ние, или Ренесса́нс (фр. Renaissance, итал. Rinascimento, от лат. renasci — рождаться заново, возрождаться) — одна из величайших культурно-исторических эпох, переломный для истории Европы этап между Средними веками и Новым временем, заложивший основы новой европейской культуры (также Раннее Новое время).
+
+            
                 </p>
-                <button class="button_contact">Contact Us</button>
+                <a class="button button_intro" href="#contacts">Задать Вопрос</a>
             </section>
-            <section class="right_sect">
-                <video class="video_intro" preload muted autoplay loop poster="img/business178.jpg">
-                    <source src="img/business178.mp4" type="video/mp4">
+            <section class="main__sect main__sect_right">
+                <video class="video video_intro" preload muted autoplay loop poster="img/renes.jpg" >
+                    <source src="img/renes.mp4" type="video/mp4">
                         Ваш браузер не поддерживает видео.
-                        <a href="img/business178.mp4">Загрузить</a>
+                        <a class="video video_intro" href="img/renes.mp4">Загрузить</a>
                 </video>
             </section>
-        </main>    
+        </div>    
     </div>
-    <div class="container_provide" >
-        <main class="main_provide">
-            <section class="left_sect">
-            <h1 class="h1 provide" >do you know we can  provide for you ?</h1>
-            <p class="text1">
-                    Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.
+    <main class="main">
+        <div class="container container_provide" >
+            <section class="main__sect main__sect_left">
+            <h2 class="h2 h2_provide">Этапы возрождения.</h2>
+            <p class="p_provide">
+                Возрождение Италии условно можно разделена 3 этапа:  </p>
+                <ul>
+              <li>  Раннее возрождение, </li>
+              <li> Высокое возрождение ,</li> 
+                <li> Позднее возрождение.</li>
+                </ul>
+               
+            <a class="button button_learn" href="#portfolio">Произведения</a>
+            </section>
+            <section class="main__sect main__sect_services">
+                <div class="main__service main__service_Management">
+                    <h3 class="h3 h3_service">Архитектура</h3>
+                    <p class="p_service">
+                        Родоначальником ренессанса в архитектуре стал Филиппо Брунеллески (купол собора Санта-Мария дель Фьоре). 
+                        Бенедетто да Майано еще следует готики, однако отмечена тонкая гармония, законченности и элегантности. 
+                         Леон Баттиста Альберти. В культовом зодчестве, стремясь к величию и простоте церковь Сант-Андреа. 
+                </p>
+                </div>
+                <div class="main__service main__service_UI">
+                    <h3 class="h3 h3_service">Живопись</h3>
+                    <p class="p_service">
+                        Огромная роль, в живописи принадлежала Мазаччо смело порывает со средневековыми традициями (Троица), (Изгнание из рая).        
+                        Паоло Уччелло  (Св. Георгий и дракон),(Битва при Сан-Романо).          
+                        Пьеро делла Франческа крупнейшего цикл фресок в церкви Сан-Франческо в Ареццо, (Смерть Адама) (Битва между Ираклием и Хосроем). 
+                       Сандро Боттичелли, (Рождение Венеры, Весна). 
+                       
+                </p>
+                </div>
+                <div class="main__service main__service_Logo">
+                    <h3 class="h3 h3_service">Скульптура</h3>
+                    <p class="text text_service">
+                        Микеланджело Буонарроти, величайший мастер Высокого Возрождения — ваятель, живописец, архитектор и поэт. Свой творческий путь этот титан Возрождения начал со скульптуры. Его колоссальные статуи стали символом нового человека — героя и борца («Давид»).
+
+                </p>
+                </div>
+
+            </section>
+        </div>    
+        <div class="container container_products">
+            <header class="header header_products" id="portfolio">
+                <h2 class="h2 h2_products" >Известные произведения</h2>
+              
+            </header>
+               
+                <div class="cards cards_products">
+                    <a class="product__link" ><img class="product__item" src="img/arx1.jpg" alt="Web template" title="Web template"></a>
+                    <a class="product__link" ><img class="product__item" src="img/arx2.jpg" alt="Print template" title="Print template"></a>
+                    <a class="product__link" ><img class="product__item" src="img/sc1.jpg" alt="Mock-up" title="Mock-up"></a>
+                    <a class="product__link" ><img class="product__item" src="img/art2.jpg" alt="User interface" title="User interface"></a>
+                    <a class="product__link" ><img class="product__item" src="img/art3.jpg" alt="Mock-up" title="Mock-up"></a>
+                    <a class="product__link" ><img class="product__item" src="img/sc2.jpg" alt="Web template" title="Web template"></a>
+                    <a class="product__link" ><img class="product__item" src="img/arx3.jpg" alt="User interface" title="User interface"></a>
+                    <a class="product__link" ><img class="product__item" src="img/arx4.jpg" alt="Print template" title="Print template"></a>
+                    <a class="product__link" ><img class="product__item" src="img/sc3.jpg" alt="Mock-up" title="Mock-up"></a>
+                    <a class="product__link" ><img class="product__item" src="img/art4.jpg" alt="User interface" title="User interface"></a>
+                </div> 
+        </div>
+        <div class="container container_team">
+            <header class="header header_team">
+                <h2 class="h2 h2_team" id="about">Выдающиеся Деятели</h2>
+                <p class="p_team">
+                    Краткие биографии наиболее значимых деятелей эпохи
+                </p>
+            </header>
+            <section class="team">
+                <div class="team__leader team__photo team__photo_leader team__photo_mark">
+                </div>
+                <div id="team__photo_mark" class="team__data_leader">
+                    <h3 class="h3 h3_leader">Рафаэль Санти</h3>
+                    <p class="p_leader">итальянский живописец, рисовальщик и архитектор умбрийской, флорентийской, а затем римской школы. Один из представителей искусства эпохи Высокого Возрождения, или «римского классицизма» начала XVI века. 
+            
+                </div>
+                <div id="team__photo_sokina" class="team__data_leader hide">
+                    <h3 class="h3 h3_leader">Филиппо Брунеллески</h3>
+                    <p class="p_leader">итальянский учёный, архитектор, скульптор, инженер, математик и геометр.
+                        Наряду с Леоном Баттистой Альберти является создателем новой европейской архитектуры. Однако, в отличие от Альберти, своего младшего современника, опиравшегося на памятники Древнего Рима, Брунеллески следовал северо-итальянской, тосканской традиции.
+                
+                </div>
+                <div id="team__photo_steve" class="team__data_leader hide">
+                    <h3 class="h3 h3_leader">Микеланджело Буонарроти</h3>
+                    <p class="p_leader">итальянский скульптор, художник, архитектор, поэт и мыслитель.
+                        Один из крупнейших мастеров эпохи Высокого Возрождения и раннего барокко — именно его считают подлинным «отцом барокко» в архитектуре. Его произведения считались наивысшими достижениями искусства Возрождения ещё при жизни самого мастера.
+                    
+                
+                </div>
+                <div id="team__photo_ada" class="team__data_leader hide">
+                    <h3 class="h3 h3_leader">Донателло</h3>
+                    <p class="p_leader">(полное имя — Донато ди Никколо ди Бетто Барди) — итальянский скульптор эпохи Возрождения флорентийской школы. Наряду с Леоном Баттистой Альберти, Филиппо Брунеллески и Мазаччо считается одним из основоположников нового ренессансного искусства, в частности ренессансной монументальной скульптуры и рельефа, а также жанра скульптурного портрета. Известен под прозванием «Донато флорентиец» (Donato fiorentino).
+                  
+                </div>
+                <div id="team__photo_bill" class="team__data_leader hide">
+                    <h3 class="h3 h3_leader">Леонардо да Винчи</h3>
+                    <p class="p_leader">итальянский художник (живописец, скульптор, архитектор), учёный (анатом, естествоиспытатель), изобретатель, писатель, музыкант, один из крупнейших представителей искусства Высокого Возрождения, яркий пример «универсального человека» (лат. homo universalis).
+                        Леонардо да Винчи родился 15 апреля 1452 года в селении Анкиано близ небольшого городка Винчи, недалеко от Флоренции.
+                        Он являлся гениальным художником и непревзойдённым инженером-механиком.
+                   
+                </div>
+                <div id="team__photo_pavel" class="team__data_leader hide">
+                    <h3 class="h3 h3_leader">Сандро Боттичелли</h3>
+                    <p class="p_leader">итальянский живописец, один из значимых мастеров эпохи раннего итальянского Возрождения, представитель флорентийской школы живописи периода кватроченто.
+                        Автор картин «Весна», «Венера и Марс», а также «Рождение Венеры», которые принесли художнику мировую известность.
+                
+                    </div>
+                    <div id="team__photo_ivan" class="team__data_leader hide">
+                        <h3 class="h3 h3_leader">Джотто ди Бондоне</h3>
+                        <p class="p_leader">итальянский живописец и архитектор XIV века, один из первых представителей проторенессанса. Ключевая фигура в истории западноевропейского искусства. Преодолевая византийскую иконописную традицию, Джотто стал основателем итальянской школы живописи, разработал новый подход к изображению пространства. 
+                    </div>
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="r" id="r1" checked>
+                        <input type="radio" name="r" id="r2">
+                        <div class="team__members slide s1">
+                            <div class="team__photo team__photo_member team__photo_sokina">
+                            </div>
+                            <div class="team__photo team__photo_member team__photo_steve">
+                            </div>
+                            <div class="team__photo team__photo_member team__photo_ada">
+                            </div>
+                            <div class="team__photo team__photo_member team__photo_bill">
+                            </div>
+                        </div>
+                        <div class="team__members slide">
+                            <div class="team__photo team__photo_member team__photo_pavel">
+                            </div>
+                            <div class="team__photo team__photo_member team__photo_ivan">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_nav">
+                        <label for="r1" class="bar"></label>
+                        <label for="r2" class="bar"></label>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <div class="container container_contact">
+        <header class="header header_contact">
+            <h2 class="h2 h2_contact" id="contacts">Задай вопрос преподавателю</h2>
+            <p class="p_contact">
+                Здесь можешь задать вопросы по эпохе возрождения.
             </p>
-            <button class="button_learn">Learn More</button>
-            </section>
-            <section class="right_services">
-                <div class="service">
-                    <img src="img/Management.svg">
-                    <h2 class="h2">Management</h2>
-                    <p class="text1">
-                    Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor
-                    </p>
+        </header>
+
+         <div class="contacts">   
+            <div class="left-contacts">
+            </div>
+            <form class="contact__form" method="get">
+                <input class="contact__input contact__input_name" type="text" name="username" placeholder="Имя">
+                <input class="contact__input contact__input_email" type="email" name="email" placeholder="Эл. Почта">
+                <textarea class="contact__input contact__input_message" name="message" placeholder="Текст сообщения"></textarea>
+                <button class="contact__button" type="submit">Отправить сообщение</button>
+             </form>
+             <div class="right-contact">
+                <div class="contact_info">
+                     <h3 class="h3 h3_contact">Контакты</h3>
+                    <p class="p_adres">г.Новсибирск</p>
+                     <p class="p_email">ДШИ№4</p>
+                    <p class="p_tel">(383) 33-706-05</p>
                 </div>
-                <div class="service">
-                        <img src="img/UI.svg">
-                        <h2 class="h2">UI /UX Design</h2>
-                        <p class="text1">
-                        Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor
-                        </p>
-                </div>
-                <div class="service">
-                        <img src="img/Logo.svg">
-                        <h2 class="h2">Logo / Branding</h2>
-                        <p class="text1">
-                        Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioeew idolor sit amet,
-                        </p>
-                </div>
-                <div class="service">
-                        <img src="img/Animation.svg">
-                        <h2 class="h2">Animation</h2>
-                        <p class="text1">
-                        Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet,
-                        </p>
-                </div>
-            </section>
-        </main>
-    </div>
+            </div>
+        </div>
+    </div> 
+    <footer class="footer">
+        <div class="container container_credits">
+            <p class="copyright">&#169; Copyright @Jonsunjon 2022, All rights reserved.</p>
+            <ul class="p_social">
+                    <li class="icon"><a href="https://www.twitter.com/" target="_blank"><img src="img/Twitter_Rounded_Solid.svg" alt="Twitter logo" title="Twitter logo"></a></li>
+                    <li class="icon"><a href="https://www.linkedin.com/" target="_blank"><img src="img/LinkedIn_Rounded_Solid.svg" alt="LinkedIn logo" title="LinkedIn logo"></a></li>
+                    <li class="icon"><a href="https://www.google.com/" target="_blank"><img src="img/Google_Rounded_Solid.svg" alt="Google+ logo" title="Google+ logo"></a></li>
+                    <li class="icon"><a href="https://www.facebook.com/" target="_blank"><img src="img/Facebook_Rounded_Solid.svg" alt="Facebook logo" title="Facebook logo"></a></li>
+                </ul>
+        </div>
+    </footer>   
 </body>
 </html>
